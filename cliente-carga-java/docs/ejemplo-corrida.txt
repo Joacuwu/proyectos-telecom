@@ -1,0 +1,12 @@
+$ java -jar target/cliente-carga-sms-1.0.0.jar --clientes 100 --mensajes 200
+Conectando 100 clientes a 127.0.0.1:6080, 20000 mensajes en total...
+
+Duración: 0,68 s
+Aceptados: 20000 · entregados: 20000 · errores: 0 · recibidos: 20000
+Rendimiento: 29480 mensajes entregados por segundo
+
+Tiempos (ms)              promedio      p50      p95      p99   máximo
+Aceptación (OK ENVIADO)       3,96     3,13     9,54    16,19    62,47
+Entrega (ENTREGADO)          19,47    15,71    44,62    70,97   138,74
+
+Guardado como corrida 1 en resultados.db
